@@ -1,9 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import "./Carousel.style.css";
-import slide1 from "../../assets/img/slide-1.webp";
-import slide2 from "../../assets/img/slide-2.webp";
-import slide3 from "../../assets/img/slide-5.webp";
+import slide1 from "../../assets/img/Carousal/slide-1.webp";
+import slide2 from "../../assets/img/Carousal/slide-2.webp";
+import slide3 from "../../assets/img/Carousal/slide-5.webp";
 import ScrollDown from "../ScrollDown/ScrollDown.component";
 
 
