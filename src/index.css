@@ -7,9 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(
     -225deg,
-    #b2ff59 0%,
-    #ccff90 48%,
-    #ccff90 100%
+    #aeea00 20%,
+    #ccff90 40%,
+    #aeea00 100%
   );
 }
 

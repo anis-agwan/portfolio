@@ -3,11 +3,13 @@ import './App.css';
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container';
+import Slide from 'react-reveal/Slide';
 
 import NavBar from './components/NavBar/NavBar.component';
 import CarouselSection from './components/CarouselSection/Carousel.component';
 import TitleHeader from './components/TitleHeader/TitleHeader.component';
 import AboutSection from './pages/about/about.component';
+import Skills from './pages/skills/skills.component';
 
 function App() {
   return (
@@ -32,6 +34,13 @@ function App() {
           </div>
         </Parallax>
       </div>
+      {/* skills section */}
+      <Container className='container-box rounded skills-box'>
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
     </div>
   );
 }

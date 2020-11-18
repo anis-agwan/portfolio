@@ -15,3 +15,10 @@ hr {
   position: relative;
   z-index: 9;
 }
+
+.skills-box {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}
