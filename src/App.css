@@ -22,3 +22,10 @@ hr {
   position: relative;
   z-index: 9;
 }
+
+.exp-section {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}

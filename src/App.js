@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container';
 import Slide from 'react-reveal/Slide';
-
+import Experience from './pages/experience/experience.component';
 import NavBar from './components/NavBar/NavBar.component';
 import CarouselSection from './components/CarouselSection/Carousel.component';
 import TitleHeader from './components/TitleHeader/TitleHeader.component';
@@ -22,7 +22,7 @@ function App() {
         <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={require('./assets/img/parallax/background.webp')}
-          bgImageAlt=''
+          bgImageAlt='Parallax'
           strength={-200}
         >
           <div>
@@ -41,6 +41,17 @@ function App() {
           <Skills />
         </Slide>
       </Container>
+
+      {/* Experience */}
+      {/* About me section */}
+      <div>
+        <Fade left duration={800}>
+          <Container className='container-box rounded exp-section'>
+            <hr />
+            <Experience />
+          </Container>
+        </Fade>
+      </div>
     </div>
   );
 }
