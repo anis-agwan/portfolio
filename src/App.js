@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect } from 'react';
 
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
