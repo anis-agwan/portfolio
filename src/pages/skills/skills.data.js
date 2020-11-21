@@ -18,6 +18,7 @@ import L_SCIKIT from '../../assets/img/skills/scikit.svg';
 import L_KERAS from '../../assets/img/skills/Keras.svg';
 import L_JAVASCRIPT from '../../assets/img/skills/javascript.svg';
 import L_PYTHON from '../../assets/img/skills/python.svg';
+import L_JUPYTER from '../../assets/img/skills/jupyter.svg';
 
 import L_POSTMAN from '../../assets/img/skills/postman.svg';
 import L_MONGODB from '../../assets/img/skills/mongodb.svg';
@@ -185,6 +186,12 @@ export const skills = {
       imgAltText: 'POSTMAN',
       imgSrc: L_POSTMAN,
       skillName: 'Postman',
+    },
+    {
+      link: 'https://jupyter.org/',
+      imgAltText: 'Jupyter',
+      imgSrc: L_JUPYTER,
+      skillName: 'Jupyter Notebook',
     },
   ],
 };

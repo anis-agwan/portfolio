@@ -11,13 +11,22 @@ import TitleHeader from './components/TitleHeader/TitleHeader.component';
 import AboutSection from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
 import ProjectTimeline from './components/ProjectTimeline/ProjectTimeline.component';
+import ContactPage from './pages/contact/contact.component';
+import Footer from './components/Footer/Footer.component';
+import Particles from 'react-particles-js';
+import { particlesOptions } from './particleOptions';
 
-function App() {
+const App = () => {
   return (
     <div className='App' style={{ position: 'relative' }}>
       <NavBar />
       <CarouselSection />
       <TitleHeader />
+      <Particles
+        className='particles particles-box'
+        params={particlesOptions}
+      />
+
       {/* About me section */}
       <div>
         <Parallax
@@ -28,7 +37,7 @@ function App() {
         >
           <div>
             <Fade left duration={800}>
-              <Container className='container-box rounded'>
+              <Container className='container-box rounded abo'>
                 <AboutSection />
               </Container>
             </Fade>
@@ -62,8 +71,20 @@ function App() {
           </Container>
         </Fade>
       </div>
+      {/* Contact */}
+      <div>
+        <Fade left duration={800}>
+          <Container className='container-box rounded exp-section'>
+            <hr />
+            <ContactPage />
+          </Container>
+        </Fade>
+      </div>
+
+      <hr />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
