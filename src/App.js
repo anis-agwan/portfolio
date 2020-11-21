@@ -10,6 +10,7 @@ import CarouselSection from './components/CarouselSection/Carousel.component';
 import TitleHeader from './components/TitleHeader/TitleHeader.component';
 import AboutSection from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
+import ProjectTimeline from './components/ProjectTimeline/ProjectTimeline.component';
 
 function App() {
   return (
@@ -43,12 +44,21 @@ function App() {
       </Container>
 
       {/* Experience */}
-      {/* About me section */}
       <div>
         <Fade left duration={800}>
           <Container className='container-box rounded exp-section'>
             <hr />
             <Experience />
+          </Container>
+        </Fade>
+      </div>
+
+      {/* Projects */}
+      <div>
+        <Fade left duration={800}>
+          <Container className='container-box rounded exp-section'>
+            <hr />
+            <ProjectTimeline />
           </Container>
         </Fade>
       </div>
