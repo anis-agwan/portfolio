@@ -30,14 +30,12 @@ const Experience = () => {
                                         <br/>
                                         <strong> Description </strong>
                                         <ul className="text-left">
-                                            <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                                            <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                                                increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                                            <li><strong>Developed &amp; enhanced</strong>Remained abreast of developments in related Python frameworks and libraries, including flask and scikit-learn.</li>
+                                            <li><strong>Planned</strong> and engineered RESTful services to manipulate dynamic datasets.
                                             </li>
-                                            <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
+                                            <li><strong>Composed</strong> production-grade code to convert machine learning models into services and pipelines to be consumed at backend. 
                                             </li>
-                                            <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                                            to the business requirements.</li>
+                                            <li><strong>Transformed</strong> raw data to conform to assumptions of machine learning algorithm..</li>
                                             {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                                         </ul>
                                     </Card.Text>
