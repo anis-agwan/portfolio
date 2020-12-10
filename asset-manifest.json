@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ff52cf4d.chunk.css",
-    "main.js": "/portfolio/static/js/main.45e4a64b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.45e4a64b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cfa9b759.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cfa9b759.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
-    "static/js/2.f945371d.chunk.js": "/portfolio/static/js/2.f945371d.chunk.js",
-    "static/js/2.f945371d.chunk.js.map": "/portfolio/static/js/2.f945371d.chunk.js.map",
+    "static/js/2.ac594747.chunk.js": "/portfolio/static/js/2.ac594747.chunk.js",
+    "static/js/2.ac594747.chunk.js.map": "/portfolio/static/js/2.ac594747.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.ff52cf4d.chunk.css.map": "/portfolio/static/css/main.ff52cf4d.chunk.css.map",
-    "static/js/2.f945371d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f945371d.chunk.js.LICENSE.txt",
+    "static/js/2.ac594747.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ac594747.chunk.js.LICENSE.txt",
     "static/media/Keras.66f62f31.svg": "/portfolio/static/media/Keras.66f62f31.svg",
+    "static/media/MyReading.4d946c5f.webp": "/portfolio/static/media/MyReading.4d946c5f.webp",
     "static/media/PyTorch.9189bc89.svg": "/portfolio/static/media/PyTorch.9189bc89.svg",
     "static/media/Tensorflow.35d12794.svg": "/portfolio/static/media/Tensorflow.35d12794.svg",
     "static/media/background.webp": "/portfolio/static/media/background.f6814621.webp",
@@ -34,6 +35,7 @@
     "static/media/profile.99fe701a.webp": "/portfolio/static/media/profile.99fe701a.webp",
     "static/media/python.e6d7dc73.svg": "/portfolio/static/media/python.e6d7dc73.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react-router.a87b7227.svg": "/portfolio/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
     "static/media/scikit.e5d55118.svg": "/portfolio/static/media/scikit.e5d55118.svg",
@@ -42,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
-    "static/js/2.f945371d.chunk.js",
+    "static/js/2.ac594747.chunk.js",
     "static/css/main.ff52cf4d.chunk.css",
-    "static/js/main.45e4a64b.chunk.js"
+    "static/js/main.cfa9b759.chunk.js"
   ]
 }
