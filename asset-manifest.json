@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ff52cf4d.chunk.css",
-    "main.js": "/portfolio/static/js/main.cae056a6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cae056a6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ca5965d9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ca5965d9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.92fe1e71.chunk.js": "/portfolio/static/js/2.92fe1e71.chunk.js",
@@ -39,6 +39,7 @@
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/real-estate.5b49cdfc.webp": "/portfolio/static/media/real-estate.5b49cdfc.webp",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
+    "static/media/rick-morty-app.b4ff7f85.webp": "/portfolio/static/media/rick-morty-app.b4ff7f85.webp",
     "static/media/scikit.e5d55118.svg": "/portfolio/static/media/scikit.e5d55118.svg",
     "static/media/semantic-ui.8d5cd4c7.svg": "/portfolio/static/media/semantic-ui.8d5cd4c7.svg",
     "static/media/solid.29c298f5.png": "/portfolio/static/media/solid.29c298f5.png"
@@ -47,6 +48,6 @@
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.92fe1e71.chunk.js",
     "static/css/main.ff52cf4d.chunk.css",
-    "static/js/main.cae056a6.chunk.js"
+    "static/js/main.ca5965d9.chunk.js"
   ]
 }
