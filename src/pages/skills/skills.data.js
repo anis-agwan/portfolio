@@ -75,12 +75,6 @@ export const skills = {
       imgSrc: L_SEMANTIC,
       skillName: 'Semantic UI',
     },
-    {
-      link: 'https://flutter.dev/',
-      imgAltText: 'Flutter',
-      imgSrc: L_FLUTTER,
-      skillName: 'Flutter',
-    },
   ],
   backend: [
     {
@@ -94,12 +88,6 @@ export const skills = {
       imgAltText: 'Flask',
       imgSrc: L_FLASK,
       skillName: 'Flask',
-    },
-    {
-      link: 'https://nodejs.org/en/',
-      imgAltText: 'Node.js',
-      imgSrc: L_NODE_JS,
-      skillName: 'Node.js',
     },
   ],
   ML: [
@@ -126,12 +114,6 @@ export const skills = {
       imgAltText: 'PyTorch',
       imgSrc: L_Pytorch,
       skillName: 'PyTorch',
-    },
-    {
-      link: 'https://www.tensorflow.org/',
-      imgAltText: 'TensorFlow',
-      imgSrc: L_TF,
-      skillName: 'TensorFlow',
     },
     {
       link: 'https://keras.io/',
@@ -166,12 +148,6 @@ export const skills = {
       imgAltText: 'JavaScript',
       imgSrc: L_JAVASCRIPT,
       skillName: 'JavaScript',
-    },
-    {
-      link: 'https://dart.dev/',
-      imgAltText: 'Dart',
-      imgSrc: L_DART,
-      skillName: 'Dart',
     },
   ],
   otherTools: [

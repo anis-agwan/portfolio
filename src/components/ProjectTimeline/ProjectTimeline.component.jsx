@@ -10,6 +10,7 @@ import "./ProjectTimeline.style.css";
 import L_FaceGen from "../../assets/img/Projects/face_gen.webp";
 import L_MyReadingApp from "../../assets/img/Projects/MyReading.webp";
 import L_REAL_ESTATE from "../../assets/img/Projects/real-estate.webp";
+import L_Rick from "../../assets/img/Projects/rick-morty-app.webp";
 
 
 // images
@@ -57,6 +58,205 @@ const ProjectTimeline = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline theme={customTheme}>
                 <Events>
+                    {/* Project: Django Real Estate Web App */}
+                        <ImageEvent
+                            date="29/11/2020"
+                            className="text-center"
+                            text="Real-Estate-App"
+                            src={L_REAL_ESTATE}
+                            alt="Real-Estate-App"
+                        >
+                            <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                <Card>
+                                    <Accordion.Toggle
+                                    as={Card.Header}
+                                    eventKey="0"
+                                    className="p-2 text-center accordian-main"
+                                    >
+                                    PROJECT DETAILS
+                                    </Accordion.Toggle>
+
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                    <Card.Body>
+                                        <strong>Description:</strong> Django Real Estate Web app to explore properties, rental housing and connect to the realtors.
+                                        <hr />
+                                        <strong>Features:</strong>
+                                        <ul className="list-styles pt-1">
+                                        <li>Web app to search for realtors and properties to buy, sell or rent</li>
+                                        <li>Backend built with Django where realtors can post about properties with their contact.</li>
+                                        <li>Front end built with pre-built theme</li>
+                                        <li>Users can register, search or even inquire about properties directly connecting to the realtors.</li>
+                                        </ul>
+                                        <hr />
+                                        <strong>Tech used:</strong>
+                                            <ul>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_PYTHON}
+                                                        alt="python"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    Python
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_DJANGO}
+                                                        alt="django"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    Django
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_PGSQL}
+                                                        alt="pgsql"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    PostgreSQL
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_BT4}
+                                                        alt="bootstrap4"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    Bootstrap 4
+                                                    </span>
+                                                </li>
+                                                </ul>
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                href="https://github.com/anis-agwan/real-estate-web-app"
+                                target="_blank"
+                                >
+                                Git Source Code
+                                </UrlButton>
+                                <UrlButton
+                                href="https://anis-real-estate-web-app.herokuapp.com/"
+                                target="_blank"
+                                >
+                                SEE LIVE
+                                </UrlButton>
+                            </div>
+                            </div>
+                        </ImageEvent>
+                        {/* Project: Rick-And-Morty-Episodes list */}
+                        <ImageEvent
+                            date="01/09/2020"
+                            className="text-center"
+                            text="Rick-And-Morty-App"
+                            src={L_Rick}
+                            alt="MyReads-App"
+                        >
+                            <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                <Card>
+                                    <Accordion.Toggle
+                                    as={Card.Header}
+                                    eventKey="0"
+                                    className="p-2 text-center accordian-main"
+                                    >
+                                    PROJECT DETAILS
+                                    </Accordion.Toggle>
+
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                    <Card.Body>
+                                        <strong>Description:</strong> This is a React app to list all the episodes of the Rick-and-Morty with Episode no, Aired date and Created on.
+                                        <hr />
+                                        <strong>Features:</strong>
+                                        <ul className="list-styles pt-1">
+                                        <li>List all the Episodes of Rick and Morty animated tv show.</li>
+                                        <li>Information of each episode's number, aired date and crated on date.</li>
+                                        <li>Pagination with Search Feature</li>
+                                        </ul>
+                                        <hr />
+                                        <strong>Tech used:</strong>
+                                            <ul>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_REACT}
+                                                        alt="react"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    React JS
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_ROUTER}
+                                                        alt="react-router"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    React Router
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_R_BOOTSTRAP}
+                                                        alt="react-bootstral"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    React-Bootstrap
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span className="p-2">
+                                                    <Image
+                                                        src={L_JAVASCRIPT}
+                                                        alt="Javascript"
+                                                        rounded
+                                                        className="image-style m-1"
+                                                    ></Image>{" "}
+                                                    Javascript
+                                                    </span>
+                                                </li>
+                                                </ul>
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                href="https://github.com/anis-agwan/rick-and-morty-episodes"
+                                target="_blank"
+                                >
+                                Git Source Code
+                                </UrlButton>
+                                <UrlButton
+                                href="https://rick-and-morty-episodes.netlify.app/#/"
+                                target="_blank"
+                                >
+                                SEE LIVE
+                                </UrlButton>
+                            </div>
+                            </div>
+                        </ImageEvent>
                     {/* Project: Face generation using GANs */}
                         <ImageEvent
                             date="14/05/2020"
@@ -236,205 +436,6 @@ const ProjectTimeline = () => {
                                 </UrlButton>
                                 <UrlButton
                                 href="https://my-reading-app.netlify.app/"
-                                target="_blank"
-                                >
-                                SEE LIVE
-                                </UrlButton>
-                            </div>
-                            </div>
-                        </ImageEvent>
-                    {/* Project: Rick-And-Morty-Episodes list */}
-                        <ImageEvent
-                            date="01/09/2020"
-                            className="text-center"
-                            text="Rick-And-Morty-App"
-                            src={L_MyReadingApp}
-                            alt="MyReads-App"
-                        >
-                            <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                <Card>
-                                    <Accordion.Toggle
-                                    as={Card.Header}
-                                    eventKey="0"
-                                    className="p-2 text-center accordian-main"
-                                    >
-                                    PROJECT DETAILS
-                                    </Accordion.Toggle>
-
-                                    <Accordion.Collapse eventKey="0" className="text-left">
-                                    <Card.Body>
-                                        <strong>Description:</strong> This is a React app to list all the episodes of the Rick-and-Morty with Episode no, Aired date and Created on.
-                                        <hr />
-                                        <strong>Features:</strong>
-                                        <ul className="list-styles pt-1">
-                                        <li>List all the Episodes of Rick and Morty animated tv show.</li>
-                                        <li>Information of each episode's number, aired date and crated on date.</li>
-                                        <li>Pagination with Search Feature</li>
-                                        </ul>
-                                        <hr />
-                                        <strong>Tech used:</strong>
-                                            <ul>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_REACT}
-                                                        alt="react"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    React JS
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_ROUTER}
-                                                        alt="react-router"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    React Router
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_R_BOOTSTRAP}
-                                                        alt="react-bootstral"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    React-Bootstrap
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_JAVASCRIPT}
-                                                        alt="Javascript"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    Javascript
-                                                    </span>
-                                                </li>
-                                                </ul>
-                                        </Card.Body>
-                                    </Accordion.Collapse>
-                                </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                href="https://github.com/anis-agwan/rick-and-morty-episodes"
-                                target="_blank"
-                                >
-                                Git Source Code
-                                </UrlButton>
-                                <UrlButton
-                                href="https://rick-and-morty-episodes.netlify.app/#/"
-                                target="_blank"
-                                >
-                                SEE LIVE
-                                </UrlButton>
-                            </div>
-                            </div>
-                        </ImageEvent>
-                    {/* Project: Django Real Estate Web App */}
-                        <ImageEvent
-                            date="29/11/2020"
-                            className="text-center"
-                            text="Real-Estate-App"
-                            src={L_REAL_ESTATE}
-                            alt="Real-Estate-App"
-                        >
-                            <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                <Card>
-                                    <Accordion.Toggle
-                                    as={Card.Header}
-                                    eventKey="0"
-                                    className="p-2 text-center accordian-main"
-                                    >
-                                    PROJECT DETAILS
-                                    </Accordion.Toggle>
-
-                                    <Accordion.Collapse eventKey="0" className="text-left">
-                                    <Card.Body>
-                                        <strong>Description:</strong> Django Real Estate Web app to explore properties, rental housing and connect to the realtors.
-                                        <hr />
-                                        <strong>Features:</strong>
-                                        <ul className="list-styles pt-1">
-                                        <li>Web app to search for realtors and properties to buy, sell or rent</li>
-                                        <li>Backend built with Django where realtors can post about properties with their contact.</li>
-                                        <li>Front end built with pre-built theme</li>
-                                        <li>Users can register, search or even inquire about properties directly connecting to the realtors.</li>
-                                        </ul>
-                                        <hr />
-                                        <strong>Tech used:</strong>
-                                            <ul>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_PYTHON}
-                                                        alt="python"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    Python
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_DJANGO}
-                                                        alt="django"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    Django
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_PGSQL}
-                                                        alt="pgsql"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    PostgreSQL
-                                                    </span>
-                                                </li>
-                                                <li>
-                                                    <span className="p-2">
-                                                    <Image
-                                                        src={L_BT4}
-                                                        alt="bootstrap4"
-                                                        rounded
-                                                        className="image-style m-1"
-                                                    ></Image>{" "}
-                                                    Bootstrap 4
-                                                    </span>
-                                                </li>
-                                                </ul>
-                                        </Card.Body>
-                                    </Accordion.Collapse>
-                                </Card>
-                                </Accordion>
-                            </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                                <UrlButton
-                                href="https://github.com/anis-agwan/real-estate-web-app"
-                                target="_blank"
-                                >
-                                Git Source Code
-                                </UrlButton>
-                                <UrlButton
-                                href="https://anis-real-estate-web-app.herokuapp.com/"
                                 target="_blank"
                                 >
                                 SEE LIVE

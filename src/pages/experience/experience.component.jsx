@@ -31,8 +31,6 @@ const Experience = () => {
                                         <strong> Description </strong>
                                         <ul className="text-left">
                                             <li><strong>Developed &amp; enhanced</strong>Remained abreast of developments in related Python frameworks and libraries, including flask and scikit-learn.</li>
-                                            <li><strong>Planned</strong> and engineered RESTful services to manipulate dynamic datasets.
-                                            </li>
                                             <li><strong>Composed</strong> production-grade code to convert machine learning models into services and pipelines to be consumed at backend. 
                                             </li>
                                             <li><strong>Transformed</strong> raw data to conform to assumptions of machine learning algorithm..</li>
