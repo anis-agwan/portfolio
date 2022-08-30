@@ -46,7 +46,7 @@ const HeaderTitle = () => {
               <div className="sub">
                 <Typewriter
                   options={{
-                    strings: ['Software Developer'],
+                    strings: ['Software-Developer'],
                     autoStart: true,
                     loop: true,
                     delay: 50,
