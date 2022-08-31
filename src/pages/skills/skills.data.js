@@ -17,6 +17,7 @@ import L_TF from '../../assets/img/skills/Tensorflow.svg';
 import L_SCIKIT from '../../assets/img/skills/scikit.svg';
 import L_KERAS from '../../assets/img/skills/Keras.svg';
 import L_JAVASCRIPT from '../../assets/img/skills/javascript.svg';
+import L_JAVA from '../../assets/img/skills/icons8-java.svg';
 import L_SQL from '../../assets/img/skills/sql.svg';
 import L_PYTHON from '../../assets/img/skills/python.svg';
 import L_SWIFT from '../../assets/img/skills/swift.svg';
@@ -135,6 +136,12 @@ export const skills = {
       skillName: 'JavaScript',
     },
     {
+      link: 'https://www.java.com/en/',
+      imgAltText: 'Java',
+      imgSrc: L_JAVA,
+      skillName: 'Java',
+    },
+    {
       link: 'https://www.w3schools.com/sql/',
       imgAltText: 'SQL',
       imgSrc: L_SQL,
@@ -155,12 +162,6 @@ export const skills = {
       skillName: 'Xcode',
     },
     {
-      link: 'https://developer.apple.com/xcode/swiftui/',
-      imgAltText: 'SwiftUI',
-      imgSrc: L_SWIFTUI,
-      skillName: 'SwiftUI',
-    },
-    {
       link: 'https://www.postman.com/',
       imgAltText: 'POSTMAN',
       imgSrc: L_POSTMAN,
@@ -175,6 +176,12 @@ export const skills = {
   ],
 
   ML: [
+    {
+      link: 'https://developer.apple.com/xcode/swiftui/',
+      imgAltText: 'SwiftUI',
+      imgSrc: L_SWIFTUI,
+      skillName: 'SwiftUI',
+    },
     {
       link: 'https://en.wikipedia.org/wiki/Machine_learning',
       imgAltText: 'Machine Learning',

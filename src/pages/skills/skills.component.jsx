@@ -94,7 +94,7 @@ const Skills = () => {
                                     <Card className="focus mt-2 mb-2">
                                         <Card.Body>
                                             {/* Frontend */}
-                                            <Card.Title className="text-center  card-title">Machine Learning</Card.Title>
+                                            <Card.Title className="text-center  card-title">Frameworks and Libraries</Card.Title>
                                             <hr />
                                             <Card.Text className="card-text d-flex justify-content-start flex-column">
                                                 {
