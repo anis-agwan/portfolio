@@ -17,13 +17,18 @@ import L_TF from '../../assets/img/skills/Tensorflow.svg';
 import L_SCIKIT from '../../assets/img/skills/scikit.svg';
 import L_KERAS from '../../assets/img/skills/Keras.svg';
 import L_JAVASCRIPT from '../../assets/img/skills/javascript.svg';
+import L_SQL from '../../assets/img/skills/sql.svg';
 import L_PYTHON from '../../assets/img/skills/python.svg';
+import L_SWIFT from '../../assets/img/skills/swift.svg';
 import L_JUPYTER from '../../assets/img/skills/jupyter.svg';
 
 import L_POSTMAN from '../../assets/img/skills/postman.svg';
 import L_MONGODB from '../../assets/img/skills/mongodb.svg';
+import L_ORACLE from '../../assets/img/skills/oracle.svg';
 import L_POSTGRESQL from '../../assets/img/skills/postgresql.svg';
 import L_GIT from '../../assets/img/skills/git-icon.svg';
+import L_XCODE from '../../assets/img/skills/xcode.png';
+import L_SWIFTUI from '../../assets/img/skills/swiftUI.png';
 
 export const skills = {
   frontend: [
@@ -90,6 +95,85 @@ export const skills = {
       skillName: 'Flask',
     },
   ],
+  database: [
+    {
+      link: 'https://www.postgresql.org/',
+      imgAltText: 'PostgreSQL',
+      imgSrc: L_POSTGRESQL,
+      skillName: 'PostgreSQL',
+    },
+    {
+      link: 'https://www.mongodb.com/',
+      imgAltText: 'MongoDB',
+      imgSrc: L_MONGODB,
+      skillName: 'MongoDB',
+    },
+    {
+      link: 'https://www.oracle.com/database/',
+      imgAltText: 'Oracle Database',
+      imgSrc: L_ORACLE,
+      skillName: 'Oracle Database',
+    },
+  ],
+  programmingLanguages: [
+    {
+      link: 'https://www.python.org/',
+      imgAltText: 'Python',
+      imgSrc: L_PYTHON,
+      skillName: 'Python',
+    },
+    {
+      link: 'https://developer.apple.com/swift/',
+      imgAltText: 'Swift',
+      imgSrc: L_SWIFT,
+      skillName: 'Swift',
+    },
+    {
+      link: 'https://www.javascript.com/',
+      imgAltText: 'JavaScript',
+      imgSrc: L_JAVASCRIPT,
+      skillName: 'JavaScript',
+    },
+    {
+      link: 'https://www.w3schools.com/sql/',
+      imgAltText: 'SQL',
+      imgSrc: L_SQL,
+      skillName: 'SQL',
+    },
+  ],
+  otherTools: [
+    {
+      link: 'https://git-scm.com/',
+      imgAltText: 'GIT',
+      imgSrc: L_GIT,
+      skillName: 'GIT',
+    },
+    {
+      link: 'https://developer.apple.com/xcode/',
+      imgAltText: 'XCODE',
+      imgSrc: L_XCODE,
+      skillName: 'Xcode',
+    },
+    {
+      link: 'https://developer.apple.com/xcode/swiftui/',
+      imgAltText: 'SwiftUI',
+      imgSrc: L_SWIFTUI,
+      skillName: 'SwiftUI',
+    },
+    {
+      link: 'https://www.postman.com/',
+      imgAltText: 'POSTMAN',
+      imgSrc: L_POSTMAN,
+      skillName: 'Postman',
+    },
+    {
+      link: 'https://jupyter.org/',
+      imgAltText: 'Jupyter',
+      imgSrc: L_JUPYTER,
+      skillName: 'Jupyter Notebook',
+    },
+  ],
+
   ML: [
     {
       link: 'https://en.wikipedia.org/wiki/Machine_learning',
@@ -97,12 +181,12 @@ export const skills = {
       imgSrc: L_ML,
       skillName: 'Machine Learning',
     },
-    {
-      link: 'https://machinelearningmastery.com/what-is-deep-learning/',
-      imgAltText: 'Deep Learning',
-      imgSrc: L_DL,
-      skillName: 'Deep Learning',
-    },
+    // {
+    //   link: 'https://machinelearningmastery.com/what-is-deep-learning/',
+    //   imgAltText: 'Deep Learning',
+    //   imgSrc: L_DL,
+    //   skillName: 'Deep Learning',
+    // },
     {
       link: 'https://scikit-learn.org/',
       imgAltText: 'Scikit-learn',
@@ -120,54 +204,6 @@ export const skills = {
       imgAltText: 'Keras',
       imgSrc: L_KERAS,
       skillName: 'Keras',
-    },
-  ],
-  database: [
-    {
-      link: 'https://www.postgresql.org/',
-      imgAltText: 'PostgreSQL',
-      imgSrc: L_POSTGRESQL,
-      skillName: 'PostgreSQL',
-    },
-    {
-      link: 'https://www.mongodb.com/',
-      imgAltText: 'MongoDB',
-      imgSrc: L_MONGODB,
-      skillName: 'MongoDB',
-    },
-  ],
-  programmingLanguages: [
-    {
-      link: 'https://www.python.org/',
-      imgAltText: 'Python',
-      imgSrc: L_PYTHON,
-      skillName: 'Python',
-    },
-    {
-      link: 'https://www.javascript.com/',
-      imgAltText: 'JavaScript',
-      imgSrc: L_JAVASCRIPT,
-      skillName: 'JavaScript',
-    },
-  ],
-  otherTools: [
-    {
-      link: 'https://git-scm.com/',
-      imgAltText: 'GIT',
-      imgSrc: L_GIT,
-      skillName: 'GIT',
-    },
-    {
-      link: 'https://www.postman.com/',
-      imgAltText: 'POSTMAN',
-      imgSrc: L_POSTMAN,
-      skillName: 'Postman',
-    },
-    {
-      link: 'https://jupyter.org/',
-      imgAltText: 'Jupyter',
-      imgSrc: L_JUPYTER,
-      skillName: 'Jupyter Notebook',
     },
   ],
 };

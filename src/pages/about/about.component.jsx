@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.style.css";
-import Profile from "../../assets/img/profile/profile.webp";
+import Profile from "../../assets/img/profile/anis.webp";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import { FaConnectdevelop, FaGithub, FaLinkedinIn, FaGoogleDrive } from "react-icons/fa";
@@ -23,9 +23,14 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hello, Friend! I am <strong>&nbsp;Mohmed Anis Agwan</strong>
-                <br />Self-motivated engineer with outstanding oral and written communication skills. I am a Full Stack Web Developer with React.js, Redux, Python, Flask, and PostgreSQL as my tech stack.
                 <br />
-                 Highly knowledgeable in computer software development.
+                  Self-motivated software engineer with professional experience in building applications for the web and mobile. 
+                <br/>
+                <br />
+                  I am currently a graduate student of SUNY Binghamton University and looking for an internship opportunity with outstanding oral and written communication skills.
+                <br/>
+                <br />
+                  Highly knowledgeable in computer software development.
                 <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
