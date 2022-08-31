@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.52ff4e59.chunk.css",
-    "main.js": "/portfolio/static/js/main.de063e37.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.de063e37.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.800d3059.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.800d3059.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.df3a9714.chunk.js": "/portfolio/static/js/2.df3a9714.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/MyReading.4d946c5f.webp": "/portfolio/static/media/MyReading.4d946c5f.webp",
     "static/media/PyTorch.16c69d14.svg": "/portfolio/static/media/PyTorch.16c69d14.svg",
     "static/media/Tensorflow.35d12794.svg": "/portfolio/static/media/Tensorflow.35d12794.svg",
+    "static/media/anis.c73f1d4d.webp": "/portfolio/static/media/anis.c73f1d4d.webp",
     "static/media/background.webp": "/portfolio/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/portfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
@@ -30,9 +31,9 @@
     "static/media/ml.7c5a498a.svg": "/portfolio/static/media/ml.7c5a498a.svg",
     "static/media/mongodb.d89a6eeb.svg": "/portfolio/static/media/mongodb.d89a6eeb.svg",
     "static/media/nodejs.52cbf9a8.svg": "/portfolio/static/media/nodejs.52cbf9a8.svg",
+    "static/media/oracle.9672bccc.svg": "/portfolio/static/media/oracle.9672bccc.svg",
     "static/media/postgresql.ae92b576.svg": "/portfolio/static/media/postgresql.ae92b576.svg",
     "static/media/postman.032231a7.svg": "/portfolio/static/media/postman.032231a7.svg",
-    "static/media/profile.99fe701a.webp": "/portfolio/static/media/profile.99fe701a.webp",
     "static/media/python.e6d7dc73.svg": "/portfolio/static/media/python.e6d7dc73.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
     "static/media/react-router.a87b7227.svg": "/portfolio/static/media/react-router.a87b7227.svg",
@@ -42,12 +43,16 @@
     "static/media/rick-morty-app.b4ff7f85.webp": "/portfolio/static/media/rick-morty-app.b4ff7f85.webp",
     "static/media/scikit.e5d55118.svg": "/portfolio/static/media/scikit.e5d55118.svg",
     "static/media/semantic-ui.8d5cd4c7.svg": "/portfolio/static/media/semantic-ui.8d5cd4c7.svg",
-    "static/media/solid.29c298f5.png": "/portfolio/static/media/solid.29c298f5.png"
+    "static/media/solid.29c298f5.png": "/portfolio/static/media/solid.29c298f5.png",
+    "static/media/sql.efb7363b.svg": "/portfolio/static/media/sql.efb7363b.svg",
+    "static/media/swift.9558f201.svg": "/portfolio/static/media/swift.9558f201.svg",
+    "static/media/swiftUI.a86cb726.png": "/portfolio/static/media/swiftUI.a86cb726.png",
+    "static/media/xcode.cbf569c2.png": "/portfolio/static/media/xcode.cbf569c2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.df3a9714.chunk.js",
     "static/css/main.52ff4e59.chunk.css",
-    "static/js/main.de063e37.chunk.js"
+    "static/js/main.800d3059.chunk.js"
   ]
 }
