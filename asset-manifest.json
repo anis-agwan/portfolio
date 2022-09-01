@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.52ff4e59.chunk.css",
-    "main.js": "/portfolio/static/js/main.800d3059.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.800d3059.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9e6a211e.chunk.css",
+    "main.js": "/portfolio/static/js/main.88f5dd87.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.88f5dd87.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.df3a9714.chunk.js": "/portfolio/static/js/2.df3a9714.chunk.js",
     "static/js/2.df3a9714.chunk.js.map": "/portfolio/static/js/2.df3a9714.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.52ff4e59.chunk.css.map": "/portfolio/static/css/main.52ff4e59.chunk.css.map",
+    "static/css/main.9e6a211e.chunk.css.map": "/portfolio/static/css/main.9e6a211e.chunk.css.map",
     "static/js/2.df3a9714.chunk.js.LICENSE.txt": "/portfolio/static/js/2.df3a9714.chunk.js.LICENSE.txt",
     "static/media/Keras.76e80689.svg": "/portfolio/static/media/Keras.76e80689.svg",
     "static/media/MyReading.4d946c5f.webp": "/portfolio/static/media/MyReading.4d946c5f.webp",
     "static/media/PyTorch.16c69d14.svg": "/portfolio/static/media/PyTorch.16c69d14.svg",
     "static/media/Tensorflow.35d12794.svg": "/portfolio/static/media/Tensorflow.35d12794.svg",
     "static/media/anis.c73f1d4d.webp": "/portfolio/static/media/anis.c73f1d4d.webp",
+    "static/media/applore.b59f8ccc.svg": "/portfolio/static/media/applore.b59f8ccc.svg",
     "static/media/background.webp": "/portfolio/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/portfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
@@ -26,6 +27,7 @@
     "static/media/flutter.9a496ae2.svg": "/portfolio/static/media/flutter.9a496ae2.svg",
     "static/media/git-icon.c60b7e5a.svg": "/portfolio/static/media/git-icon.c60b7e5a.svg",
     "static/media/html-5.821ba738.svg": "/portfolio/static/media/html-5.821ba738.svg",
+    "static/media/icons8-java.d5ed96c7.svg": "/portfolio/static/media/icons8-java.d5ed96c7.svg",
     "static/media/javascript.ba40d6a9.svg": "/portfolio/static/media/javascript.ba40d6a9.svg",
     "static/media/jupyter.62200874.svg": "/portfolio/static/media/jupyter.62200874.svg",
     "static/media/ml.7c5a498a.svg": "/portfolio/static/media/ml.7c5a498a.svg",
@@ -52,7 +54,7 @@
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.df3a9714.chunk.js",
-    "static/css/main.52ff4e59.chunk.css",
-    "static/js/main.800d3059.chunk.js"
+    "static/css/main.9e6a211e.chunk.css",
+    "static/js/main.88f5dd87.chunk.js"
   ]
 }
