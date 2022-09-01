@@ -15,7 +15,7 @@ import ProjectTimeline from './components/ProjectTimeline/ProjectTimeline.compon
 import ContactPage from './pages/contact/contact.component';
 import Footer from './components/Footer/Footer.component';
 import Particles from 'react-particles-js';
-import { particlesOptions } from './particleOptions';
+//import { particlesOptions } from './particleOptions';
 
 const App = () => {
   return (
@@ -23,10 +23,10 @@ const App = () => {
       <NavBar />
       <CarouselSection />
       <TitleHeader />
-      <Particles
+      {/* <Particles
         className='particles particles-box'
         params={particlesOptions}
-      />
+      /> */}
 
       {/* About me section */}
       <div>
