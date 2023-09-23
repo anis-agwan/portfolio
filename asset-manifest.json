@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.54ad0ad6.css",
-    "main.js": "/portfolio/static/js/main.9728a8a7.js",
+    "main.js": "/portfolio/static/js/main.eb921d5a.js",
     "static/media/xcode.png": "/portfolio/static/media/xcode.cbf569c2ce6d04d697a3.png",
     "static/media/MyReading.webp": "/portfolio/static/media/MyReading.4d946c5f5e3f0e19a242.webp",
     "static/media/background.webp": "/portfolio/static/media/background.f68146215cd63c0647c5.webp",
@@ -12,6 +12,7 @@
     "static/media/real-estate.webp": "/portfolio/static/media/real-estate.5b49cdfc9e5fb318a41a.webp",
     "static/media/PyCharm_Icon.svg.png": "/portfolio/static/media/PyCharm_Icon.svg.9924226aa2bc21ee62f6.png",
     "static/media/Visual_Studio_Code_1.35_icon.svg.png": "/portfolio/static/media/Visual_Studio_Code_1.35_icon.svg.1718d33968068d5e852d.png",
+    "static/media/BU-SOM.png": "/portfolio/static/media/BU-SOM.76ccf7c974e76820d8df.png",
     "static/media/512px-Antu_mysql-workbench.svg.png": "/portfolio/static/media/512px-Antu_mysql-workbench.svg.ce932957f407fe3b2233.png",
     "static/media/flask.svg": "/portfolio/static/media/flask.611b5611428e497086bc821da6f8511c.svg",
     "static/media/face_gen.webp": "/portfolio/static/media/face_gen.a3eef7dde0a6588fb444.webp",
@@ -61,10 +62,10 @@
     "static/media/docker-svgrepo-com.svg": "/portfolio/static/media/docker-svgrepo-com.c510bf4034a4d1d97085e5234d3db1bf.svg",
     "static/media/firebase-icon.svg": "/portfolio/static/media/firebase-icon.82a35fc0b90d124a8e7333989f767fd3.svg",
     "main.54ad0ad6.css.map": "/portfolio/static/css/main.54ad0ad6.css.map",
-    "main.9728a8a7.js.map": "/portfolio/static/js/main.9728a8a7.js.map"
+    "main.eb921d5a.js.map": "/portfolio/static/js/main.eb921d5a.js.map"
   },
   "entrypoints": [
     "static/css/main.54ad0ad6.css",
-    "static/js/main.9728a8a7.js"
+    "static/js/main.eb921d5a.js"
   ]
 }
