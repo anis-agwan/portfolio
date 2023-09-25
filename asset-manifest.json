@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.54ad0ad6.css",
-    "main.js": "/portfolio/static/js/main.eb921d5a.js",
+    "main.js": "/portfolio/static/js/main.6c0a2951.js",
     "static/media/xcode.png": "/portfolio/static/media/xcode.cbf569c2ce6d04d697a3.png",
     "static/media/MyReading.webp": "/portfolio/static/media/MyReading.4d946c5f5e3f0e19a242.webp",
     "static/media/background.webp": "/portfolio/static/media/background.f68146215cd63c0647c5.webp",
@@ -9,11 +9,13 @@
     "static/media/anis.webp": "/portfolio/static/media/anis.c73f1d4d95bbad6d27ab.webp",
     "static/media/rick-morty-app.webp": "/portfolio/static/media/rick-morty-app.b4ff7f851bbad1c9e438.webp",
     "static/media/solid.png": "/portfolio/static/media/solid.29c298f5cac3ac980a69.png",
+    "static/media/spotify-analyzer.webp": "/portfolio/static/media/spotify-analyzer.d840556b763a52b37a1a.webp",
     "static/media/real-estate.webp": "/portfolio/static/media/real-estate.5b49cdfc9e5fb318a41a.webp",
     "static/media/PyCharm_Icon.svg.png": "/portfolio/static/media/PyCharm_Icon.svg.9924226aa2bc21ee62f6.png",
     "static/media/Visual_Studio_Code_1.35_icon.svg.png": "/portfolio/static/media/Visual_Studio_Code_1.35_icon.svg.1718d33968068d5e852d.png",
     "static/media/BU-SOM.png": "/portfolio/static/media/BU-SOM.76ccf7c974e76820d8df.png",
     "static/media/512px-Antu_mysql-workbench.svg.png": "/portfolio/static/media/512px-Antu_mysql-workbench.svg.ce932957f407fe3b2233.png",
+    "static/media/speech-to-comment.webp": "/portfolio/static/media/speech-to-comment.405cab3ff09d5c6c58af.webp",
     "static/media/flask.svg": "/portfolio/static/media/flask.611b5611428e497086bc821da6f8511c.svg",
     "static/media/face_gen.webp": "/portfolio/static/media/face_gen.a3eef7dde0a6588fb444.webp",
     "static/media/swiftUI.png": "/portfolio/static/media/swiftUI.a86cb7265c857256ea72.png",
@@ -21,6 +23,7 @@
     "static/media/oracle.svg": "/portfolio/static/media/oracle.9672bccc95e8e501827e6e63b130f718.svg",
     "static/media/ml.svg": "/portfolio/static/media/ml.7c5a498ac3bb985bdc9b02ff4d24bc62.svg",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
+    "static/media/nodejs.svg": "/portfolio/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
     "static/media/android-studio-canary.svg": "/portfolio/static/media/android-studio-canary.987e167553ee2b0639e3a83ee92c2bf3.svg",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
     "static/media/kubernetes-icon.svg": "/portfolio/static/media/kubernetes-icon.5361c558eaa073b46c2d7128bc79fb9c.svg",
@@ -62,10 +65,10 @@
     "static/media/docker-svgrepo-com.svg": "/portfolio/static/media/docker-svgrepo-com.c510bf4034a4d1d97085e5234d3db1bf.svg",
     "static/media/firebase-icon.svg": "/portfolio/static/media/firebase-icon.82a35fc0b90d124a8e7333989f767fd3.svg",
     "main.54ad0ad6.css.map": "/portfolio/static/css/main.54ad0ad6.css.map",
-    "main.eb921d5a.js.map": "/portfolio/static/js/main.eb921d5a.js.map"
+    "main.6c0a2951.js.map": "/portfolio/static/js/main.6c0a2951.js.map"
   },
   "entrypoints": [
     "static/css/main.54ad0ad6.css",
-    "static/js/main.eb921d5a.js"
+    "static/js/main.6c0a2951.js"
   ]
 }
